@@ -60,6 +60,7 @@
 			<div></div>
 		</button>
 		<div class="main-navigation main-navigation-sticky">
+			<a class="buy-tix-btn" href="#"></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu-sticky', 'container_class' => 'menu-all-pages-container menu-all-pages-container--'.get_locale() ) ); ?>
 		</div>
 	</div><!-- #stickyhead -->

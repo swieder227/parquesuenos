@@ -11,10 +11,10 @@ get_header(); ?>
 		
 		<div class="page-topimg page-topimg--home"></div>
 
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main parque-text-color--white" role="main">
 
 		<div class="casa-row casa-row--nopad" id="home-intro">
-			<div class="casa-col--bg casa-col--scratch-blue"></div>
+			<div class="casa-col--bg"></div>
 			<div class="casa-col--text casa-col--100p">
 				<div class="two-col-layout two-col-layout--flex-center clear">
 					<div class="two-col-layout__left">
@@ -45,6 +45,8 @@ get_header(); ?>
 			</div>
 		</div>
 
+		<div class="border-wave"></div>
+
 		<div class="casa-row clear" id="home-fun">
 			<div class="casa-col--bg casa-col--55p casa-col--right"></div>
 			<div class="casa-col--text casa-col--45p casa-col--orange-dark casa-col--scratch-orange-dark">
@@ -58,7 +60,7 @@ get_header(); ?>
 
 		<div class="casa-row clear" id="home-luxury">
 			<div class="casa-col--bg casa-col--55p"></div>
-			<div class="casa-col--text casa-col--45p casa-col--right casa-col--blue-dark">
+			<div class="casa-col--text casa-col--45p casa-col--right casa-col--blue-dark casa-col--scratch-blue">
 				<h1 class="parque-h1"><span class="font-lecker">Pool-Side</span> <span class="font-uppercase">&nbsp;LUXURY</span></h1>
 				<p class="parque-body">Our spacious, adults-only pool boasts the best view on the island. Complete with a swim-up bar and tables for dining service, you can enjoy anything from our all-day menu as you sip your favorite cerveza, margarita or mojito. An oasis for those looking to experience paradise at their own pace.</p>
 				<div class="alignright parque-body font-uppercase learnmore-link"><a href="#">Learn More</a></div>

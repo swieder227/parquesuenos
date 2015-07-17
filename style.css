@@ -58,6 +58,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## two-col-layout
 # Casa Row/Col
 # Homepage-Specific
+# Dining-Specific
+# Tickets-Specific
+# Info/FAQ-Specific
 # Footer
 
 
@@ -293,24 +296,26 @@ th {
 	font-weight: 400;
 	src: local('Montserrat'), local("Montserrat-Regular"), url(fonts/montserrat/Montserrat-Regular.otf) format(opentype);
 }
-/*
+
 @font-face{
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 200;
 	src: local('Montserrat Light'), local("Montserrat-Light"), url(fonts/montserrat/Montserrat-Light.otf) format(opentype);
 }
+/*
 @font-face{
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 100;
 	src: local('Montserrat Hairline'), local("Montserrat-Hairline"), url(fonts/montserrat/Montserrat-Hairline.otf) format(opentype);
 }
+*/
 @font-face{
 	font-family: "Montserrat";
 	font-weight: bold;
 	src: local('Montserrat Bold'), local("Montserrat-Bold"), url(fonts/montserrat/Montserrat-Bold.otf) format(opentype);
-}*/
+}
 
 html {
 	-webkit-font-smoothing: antialiased;
@@ -404,10 +409,14 @@ big {
 	font-weight: normal;
 }
 
-.parque-h1 {
-	font-size: 40px;
-	line-height: 1;
-}
+/* Text Sizes */
+.parque-h1 { font-size: 40px; line-height: 1;}
+.parque-h2 { font-size: 2em; }
+.parque-h3 { font-size: 1.5em; }
+.parque-h4 { font-size: 1.2em; }
+
+.parque-XL { font-size: 70px; line-height: 1;}
+
 .parque-h1.font-lecker,
 .parque-h1 .font-lecker {
 	font-size: 45px;
@@ -417,10 +426,39 @@ big {
 	font-size: 20px;
 	line-height: 1.1;
 	letter-spacing: -1px;
+	
+}
+.parque-body--light {
+	font-weight: 200;
+}
+
+.parque-body--bold {
+	font-weight: bold;
+}
+
+.parque-body--sm {
+	font-size: 17px;
+	line-height: 1.3;
+	font-weight: 200;
 }
 
 .font-uppercase {
 	text-transform: uppercase;
+}
+.font-underline {
+	text-decoration: underline;
+}
+
+.parque-text-color--white {
+	color: #fff;
+}
+
+.parque-text-color--blue {
+	color: #406e92;
+}
+
+.parque-text-color--bluedark {
+	color: #092e6e;
 }
 
 /*--------------------------------------------------------------
@@ -587,7 +625,7 @@ textarea {
 
 .site-header-banner{
 	position: relative;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
 .site-branding{
@@ -657,13 +695,15 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #092e6e;
+	color: #406e92;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #092e6e;
+	color: #406e92;
+	text-decoration: underline;
 }
 
 a:focus {
@@ -897,9 +937,12 @@ a:active {
 	#site-navigation .menu-all-pages-container {
 		position: absolute;
 		top: 105px;
-		height: 395px;
+		height: 268px;
 		width: 100%;
 		pointer-events: none;
+	}
+	body.home #site-navigation .menu-all-pages-container {
+		height: 395px;
 	}
 	.main-navigation li {
 		width: 100%;
@@ -1102,9 +1145,17 @@ html.supportsFlexbox #primary-menu-sticky {
 
 @media screen and (max-width: 1023px) {
 	.buy-tix-btn {
+		background-position-x: 60px;
 		height: 112px;
 	}
 }
+@media screen and (max-width: 450px) {
+	.buy-tix-btn {
+		background-position-x: 110px;
+		height: 80px;
+	}
+}
+
 
 
 /*--------------------------------------------------------------
@@ -1163,12 +1214,20 @@ html.supportsFlexbox #primary-menu-sticky {
 	margin-right: auto;
 }
 
+.text-center {
+	text-align: center;
+}
+
 .margin-0 {
 	margin: 0;
 }
 
 .margin--bot-neg {
 	margin-bottom: -0.15em;
+}
+
+.padding--top-0 {
+	padding-top: 0 !important;
 }
 
 
@@ -1457,7 +1516,18 @@ object {
 	height: 395px;
 	background-image: url(imgs/bg_home_top_lg.jpg);
 }
-
+.page-topimg--dining{
+	background-image: url(imgs/bg_dining_top.jpg);
+}
+.page-topimg--tickets{
+	background-image: url(imgs/bg_tickets_top.jpg);
+}
+.page-topimg--info{
+	background-image: url(imgs/bg_info_top.jpg);
+}
+.page-topimg--faq{
+	background-image: url(imgs/bg_faq_top.jpg);
+}
 
 
 /* ## toptabs : tabs with anchor in the bottom left corner of a page-topimg */
@@ -1475,20 +1545,20 @@ object {
 
 .toptab {
 	float: left;
-	background-color: rgba(101, 153, 192, 0.8);
+	background-color: rgba(255,255,255, 0.75);
 	transition: background 0.5s ease-out 0s;
 	font-size: 1.5rem;
 	padding: 0.5rem 2rem 0.3rem;
+	color: #f3763c;
 }
 .toptab:not(:last-child) {
-	border-right: 2px solid #7ea9ca;
+	margin-right: 3px;
 }
 .toptab:hover {
-	background-color: rgba(121, 173, 212, 0.9);
+	background-color: rgba(255,255,255, 0.9);
 }
 .toptab.active {
-	color: #092e6e;
-	background: white;
+	background-color: rgba(255,255,255, 1);
 }
 
 .toptab a,
@@ -1507,30 +1577,9 @@ object {
 	.toptab {
 		line-height: 1;
 		border-right: none;
-		border-bottom: 2px solid #7ea9ca;
+		border-bottom: 2px solid #0F3371;
 		padding: 0.5rem 0;
-	}
-	html:not(.supportsFlexbox) .toptab {
 		width: 33.333333%;
-	}
-	html.supportsFlexbox .toptabs {
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-	    -webkit-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	}
-	html.supportsFlexbox .toptab {
-		float: none;
-		max-width: 60%;
-		width: auto;
-		-webkit-flex: 1 1 auto;
-		-moz-flex: 1 1 auto;
-		-ms-flex: 1 1 auto;
-		-o-flex: 1 1 auto;
-		flex: 1 1 auto;
 	}
 }
 
@@ -1563,12 +1612,13 @@ object {
 	color: white;
 }
 
-/* ## btn-cta Teal text-based button with dashes */
+/* ## btn-cta Blue text-based button with dashes */
 .btn-cta {
-	color: #0abfdc;
+	color: #406e92;
 	text-transform: uppercase;
 	font-weight: bold;
 	cursor:pointer;
+	text-decoration: none;
 }
 
 /* ## header-reserve-now : large Reserve Now text/button */
@@ -1676,8 +1726,6 @@ object {
 ------------------------------------------------------------*/
 .casa-row{
 	position: relative;
-	color: white;
-	background: #C0C0C0;
 }
 
 /* casa-col--bg : width % cover */
@@ -1690,6 +1738,7 @@ object {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-color: #C0C0C0;
 }
 @media screen and (max-width: 700px){
 	/* on mobile, width 100% */
@@ -1730,28 +1779,40 @@ object {
 	right: 0;
 }
 
+
+
 .casa-col--orange-light {
 	background-color: #f7951d;
 }
 .casa-col--orange-dark {
-	background-color: #f87d44;
+	background-color: #f3763c;
 }
 .casa-col--blue-dark {
 	background-color: #0a5c94;
 }
 
-.casa-col--scratch-orange-orange {
-	background-size: 110px 100px;
-	background-repeat: repeat;
-}
+
 .casa-col--scratch-orange-light {
 	background-image: url(imgs/pattern_scratch_orange.png);
+	background-size: 200px 200px;
+	background-repeat: repeat;
 }
 .casa-col--scratch-orange-dark {
 	background-image: url(imgs/pattern_scratch_orangedark.png);
+	background-size: 200px 200px;
+	background-repeat: repeat;
 }
 .casa-col--scratch-blue {
 	background-image: url(imgs/pattern_scratch_blue.png);
+	background-size: 200px 200px;
+	background-repeat: repeat;
+}
+
+.casa-col--pattern-circle {
+	background-image: url(imgs/pattern_circle.png), url(imgs/pattern_scratch_orange.png);
+	background-size: contain, 226px 85px;
+	background-position: 50% 50%, 0px 0px;
+	background-repeat: no-repeat, repeat;
 }
 
 
@@ -1775,11 +1836,23 @@ object {
 	}
 }
 
+.casa-col--extrapad {
+	padding: 70px 0;
+}
+
 /*Apply BG images*/
 #home-intro .casa-col--bg { background-image: url(imgs/bg_home_0.jpg); }
 #home-adventure .casa-col--bg{ background-image: url(imgs/bg_home_1.jpg); }
 #home-fun .casa-col--bg{ background-image: url(imgs/bg_home_2.jpg); }
 #home-luxury .casa-col--bg{ background-image: url(imgs/bg_home_3.jpg); }
+#dining-brunch .casa-col--bg { background-image: url(imgs/bg_dining_0.jpg); }
+#dining-bar .casa-col--bg { background-image: url(imgs/bg_dining_1.jpg); }
+#dining-reves .casa-col--bg { background-image: url(imgs/bg_dining_2.jpg); }
+#dining-sunset .casa-col--bg { background-image: url(imgs/bg_dining_3.jpg); }
+#dining-ocean .casa-col--bg { background-image: url(imgs/bg_dining_4.jpg); }
+#tickets-buy .casa-col--bg { background-image: url(imgs/bg_tickets_0.jpg); background-position: 50% 10%; }
+#info-tickets .casa-col--bg { background-image: url(imgs/bg_info_0.jpg); }
+#faq-tickets .casa-col--bg { background-image: url(imgs/bg_faq_0.jpg); }
 
 
 
@@ -1804,7 +1877,126 @@ object {
 	}
 }
 
+/*--------------------------------------------------------------
+# Dining-Specific
+--------------------------------------------------------------*/
+.dining-body {
+	min-height: 175px;
+}
 
+.dining-pricing {
+	clear: both;
+	font-weight: 200;
+	font-size: 24px;
+	margin-top: 0.5em;
+	margin-bottom: -0.1em;
+}
+
+/*--------------------------------------------------------------
+# Tickets-Specific
+--------------------------------------------------------------*/
+/*Table Layout*/
+.tickets-table {
+	max-width: 840px;
+	margin: 0 0 5px 0;
+}
+
+.tickets-table tr:nth-child(odd){
+	background-color: #fff4e6;
+}
+
+.tickets-table td {
+	padding: 5px 20px;
+}	
+
+/* Large, 3column */
+@media screen and (min-width: 701px) {
+	
+
+	.tickets-table td {
+		height: 50px;
+	}	
+}
+
+/* Small, 100% width */
+@media screen and (max-width: 700px) {
+	table, tbody, tr, td {
+		display: block;
+		width: 100%;
+	}
+	tr {
+		padding: 10px 0;
+	}
+	.ticket-hide-mobile {
+		display: none;
+	}
+}
+
+/*Text styles*/
+.ticket-title {
+	font-size: 25px;
+	font-weight: bold;
+}
+.ticket-sub {
+	font-size: 16px;
+	max-width: 840px;
+}
+
+/*--------------------------------------------------------------
+# Info/FAQ-Specific
+--------------------------------------------------------------*/
+.casa-col--col-form-left {
+	float: left;
+	width: 70%;
+	padding-right: 5em;
+}
+
+.casa-col--col-form-right {
+	float: left;
+	width: 30%;
+	min-width: 0;
+}
+
+.casa-col--col-form-right form {
+	/*padding-top: 1em;*/
+}
+
+.casa-col--col-form-right input {
+	width: 100%;
+	color: #092e6e;
+}
+
+.faq-yellow-container {
+	background: #fff4e6;
+	margin-bottom: 1em;
+	max-width: 550px;
+}
+
+.faq-yellow-container > div:first-child {
+	margin-bottom: 0.5em;
+}
+
+
+@media screen and (max-width: 767px) {
+	.casa-col--col-form-left,
+	.casa-col--col-form-right {
+		width: 100%;
+		clear: both;
+		float: left;
+		
+	}
+	.casa-col--col-form-left{
+		padding-right: 0;
+	}
+	.casa-col--col-form-right {
+		padding: 0 2%;
+	}
+
+	.faq-yellow-container {
+		max-width: 100%
+	}
+
+}
 
 /*--------------------------------------------------------------
 # Footer
