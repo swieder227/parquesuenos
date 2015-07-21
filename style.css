@@ -411,15 +411,16 @@ big {
 
 /* Text Sizes */
 .parque-h1 { font-size: 40px; line-height: 1;}
-.parque-h2 { font-size: 2em; }
-.parque-h3 { font-size: 1.5em; }
-.parque-h4 { font-size: 1.2em; }
+.parque-h2 { font-size: 2em; line-height: 1;}
+.parque-h3 { font-size: 1.5em; line-height: 1;}
+.parque-h4 { font-size: 1.2em; line-height: 1;}
 
 .parque-XL { font-size: 70px; line-height: 1;}
 
 .parque-h1.font-lecker,
 .parque-h1 .font-lecker {
 	font-size: 45px;
+	line-height: 1.25;
 }
 
 .parque-body {
@@ -1853,6 +1854,11 @@ object {
 #tickets-buy .casa-col--bg { background-image: url(imgs/bg_tickets_0.jpg); background-position: 50% 10%; }
 #info-tickets .casa-col--bg { background-image: url(imgs/bg_info_0.jpg); }
 #faq-tickets .casa-col--bg { background-image: url(imgs/bg_faq_0.jpg); }
+#active-intro .casa-col--bg { background-color: white; }
+#active-adventure .casa-col--bg {background-image: url(imgs/bg_active_0.jpg); background-position: 50% 0%; }
+#active-zipline .casa-col--bg {background-image: url(imgs/bg_active_1.jpg);}
+#active-explore .casa-col--bg {background-image: url(imgs/bg_active_2.jpg);}
+#active-pools .casa-col--bg {background-image: url(imgs/bg_active_3.jpg);}
 
 
 
@@ -1999,6 +2005,15 @@ object {
 }
 
 /*--------------------------------------------------------------
+# Activities
+--------------------------------------------------------------*/
+#active-intro ul {
+	margin-left: 0;
+	padding-left: 1em;
+	margin-top: 0.5em;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .site-footer{
@@ -2073,3 +2088,330 @@ object {
 		padding: 5px 0;
 	}
 }*/
+
+
+
+/*--------------------------------------------------------------
+# Carousel
+--------------------------------------------------------------*/
+/*
+
+Basic Carousel layout
+
+*/
+
+.carousel-main {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    overflow: hidden;
+}
+.carousel-main.preventDoubleTap {
+    pointer-events:none;
+}
+
+.carousel-main.fixed {
+	position: fixed;
+	z-index: 10000;
+}
+
+.carousel-curtain {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.75);
+	opacity: 0;
+	-webkit-transition: opacity 0.4s ease 0s;
+			transition: opacity 0.4s ease 0s;
+	pointer-events: none;
+	cursor: pointer;
+}
+.carousel-main.fixed .carousel-curtain {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    pointer-events: none; /* lets you click the curtain behind this */
+}
+
+/* 
+
+Animating carousel-items
+
+*/
+
+.carousel-item.active,
+.carousel-item.prev,
+.carousel-item.next {
+    opacity: 1;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+}
+
+/* slide("_R") */
+@-webkit-keyframes slideLeftOut {
+    0%   { -webkit-transform: translateX(0%); transform: translateX(0%);}
+    100% { -webkit-transform: translateX(-100%); transform: translateX(-100%);}
+}
+@keyframes slideLeftOut {
+    0%   { -webkit-transform: translateX(0%); transform: translateX(0%);}
+    100% { -webkit-transform: translateX(-100%); transform: translateX(-100%);}
+} 
+@-webkit-keyframes slideRightIn {
+    0%   { -webkit-transform: translateX(100%); transform: translateX(100%);}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
+} 
+@keyframes slideRightIn {
+    0%   { -webkit-transform: translateX(100%); transform: translateX(100%);}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
+} 
+
+.carousel-item.prev {
+    -webkit-animation-name: slideLeftOut;
+            animation-name: slideLeftOut;
+}
+.carousel-item.active.next {
+    -webkit-animation-name: slideRightIn;
+            animation-name: slideRightIn;
+}
+
+/* slide("_L") */
+@-webkit-keyframes slideRightOut {
+    0%   { -webkit-transform: translateX(0%); transform: translateX(0%);}
+    100% { -webkit-transform: translateX(100%); transform: translateX(100%);}
+}
+@keyframes slideRightOut {
+    0%   { -webkit-transform: translateX(0%); transform: translateX(0%);}
+    100% { -webkit-transform: translateX(100%); transform: translateX(100%);}
+} 
+@-webkit-keyframes slideLeftIn {
+    0%   { -webkit-transform: translateX(-100%); transform: translateX(-100%);}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
+} 
+@keyframes slideLeftIn {
+    0%   { -webkit-transform: translateX(-100%); transform: translateX(-100%);}
+    100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
+} 
+
+.carousel-item.prev.active {
+    -webkit-animation-name: slideLeftIn;
+            animation-name: slideLeftIn;
+}
+.carousel-item.next {
+    -webkit-animation-name: slideRightOut;
+            animation-name: slideRightOut;
+}
+
+
+/* 
+
+Placeholders
+
+*/
+
+.carousel-img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	pointer-events: auto; /* blocks clicks on curtain when directly on image */
+	background-size: cover;
+	background-position: 50% 50%; 
+}
+
+/*
+
+Buttons
+
+*/
+.carousel-btn {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 3em;
+    height: 2em;
+    background: transparent;
+    outline: 0;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.carousel-btn[data-dir="_L"] {
+    margin-right: 0.5em;
+}
+.carousel-btn[data-dir="_R"] {
+	margin-left: 0.5em;
+}
+
+.carousel-btn[data-dir="_L"]:after,
+.carousel-btn[data-dir="_R"]:after {
+    content: '';
+    width: 0em;
+    height: 0em;
+    position: absolute;
+    margin-top: -1em;
+    border-radius: 0.55em;
+}
+
+.carousel-btn[data-dir="_L"]:after {
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    left: 1em;
+    border-right: 1.5em solid #ffce01;
+}
+
+.carousel-btn[data-dir="_R"]:after {
+    border-top: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    right: 1em;
+    border-left: 1.5em solid #ffce01;
+}
+
+
+.carousel-btn,
+.carousel-dots {
+	display: inline-block;
+}
+
+
+.carousel-controls {
+	position: absolute;
+	bottom: 0;
+	left: auto;
+	right: 0;
+	background: rgba(101, 153, 192, 0.55);
+	padding: 0.5em;
+	-webkit-transition: background 0.4s ease 0s;
+			transition: background 0.4s ease 0s;
+}
+@media screen and (max-width: 520px) {
+	.carousel-controls {
+		bottom: auto;
+		left: 0;
+	}
+}
+
+.carousel-main.fixed .carousel-controls {
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+    left: 0;
+    bottom: 0;
+    top: auto;
+}
+
+.carousel-controls-left {
+	float: left;
+}
+.carousel-main.fixed .carousel-controls-left {
+	float: none;
+	left: 30px;
+	right: 30px;
+	position: absolute;
+}
+
+.carousel-controls-right {
+	float: right;
+	width: 30px;
+}
+
+/*
+
+Dots
+
+*/
+.carousel-dots {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #ffce01;
+    margin: 0 0.4em;
+    position: relative;
+    top: 0.2em;
+    cursor: pointer;
+    transition: all 0.4s ease-out 0s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+.carousel-dot.active {
+    background: #fff;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+@media screen and (max-width: 330px) {
+	.carousel-dot {
+		width: 0.5em;
+		height: 0.5em;
+		top: 0em;
+		margin: 0 0.3em;
+	}
+}
+@media screen and (max-width: 450px) {
+	.carousel-main.fixed .carousel-dot {
+		width: 0.5em;
+		height: 0.5em;
+		top: 0em;
+		margin: 0 0.3em;
+	}
+}
+
+.carousel-fullscreen {
+	background-image: url(imgs/ico-fullscreen.png);
+	width: 25px;
+	height: 25px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+	outline: none !important;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+/*.carousel-main .carousel-item[data-slide-index="6"] .carousel-img { background-image: url(imgs/rooms/casa-7.gif); }*/
+.carousel-main .carousel-item .carousel-img { background-image: url(imgs/bg_active_top_0.jpg); }
+
+
+/* Set Max heights */
+.carousel-main.fixed .carousel-img {
+	width: 100%;
+	height: 100%;
+	max-width: 500px;
+	max-height: 400px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
