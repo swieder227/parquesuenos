@@ -25,7 +25,7 @@ get_header(); ?>
 
 		<div class="casa-row casa-row--nopad parque-text-color--blue">
 			<div class="casa-col--text casa-col--100p">
-				<p class="ticket-title font-uppercase margin--bot-neg">DAY TICKET PRICES</p>
+				<p class="ticket-title font-uppercase margin--bot-neg">FULL DAY TICKET PRICES</p>
 				<p class="ticket-sub margin-0">Everyday, rain or shine, from 10am to 5pm</p>	
 			</div>
 		</div>
@@ -50,7 +50,7 @@ get_header(); ?>
 					<p class="parque-body">$840 MXN / $59.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="#" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -62,41 +62,37 @@ get_header(); ?>
 					<p class="parque-body">$1300 MXN / $95.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="#" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
 			<tr>
 				<td>
-					<p class="parque-body margin--bot-neg">Isla Mujeres Resident Admission</p>
-					<small>(ID Required)</small>
+					<p class="parque-body margin--bot-neg">Senior</p>
+					<small> (Guests 60 Years & Over - ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$420  MXN / $30.00 USD</p>
+					<p class="parque-body">$700  MXN / $50.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="#" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
 			<tr>
 				<td>
-					<p class="parque-body margin--bot-neg">Single Day General Admission</p>
+					<p class="parque-body margin--bot-neg">Mexican National</p>
 					<small>(Citizens of Mexico – ID Required)</small>
 				</td>
 				<td>
 					<p class="parque-body">$700  MXN / $50.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="#" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
 				</td>
 			</tr>
 		</table>
-		<div class="casa-row casa-row--nopad parque-text-color--blue">
-			<div class="casa-col--text casa-col--100p text-center padding--top-0">
-				<p class="ticket-sub">Valid for use 7 days from date of purchase</p>
-			</div>
-		</div>
+	
 
 		<!-- TABLE 2 -->
 
@@ -127,7 +123,7 @@ get_header(); ?>
 					<p class="parque-body">$630 MXN / $45.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="#" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -140,26 +136,26 @@ get_header(); ?>
 					<p class="parque-body">$490 MXN / $35.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="#" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
 			<tr>
 				<td>
-					<p class="parque-body margin--bot-neg">Senior Admission</p>
+					<p class="parque-body margin--bot-neg">Senior</p>
 					<small>(Guests 60 Years &amp; Over - ID Required)</small>
 				</td>
 				<td>
 					<p class="parque-body">$490  MXN / $35.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="#" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
 				</td>
 			</tr>
 		</table>
 		<div class="casa-row casa-row--nopad parque-text-color--blue">
 			<div class="casa-col--text casa-col--100p text-center padding--top-0">
-				<p class="ticket-sub">Valid for use 7 days from date of purchase</p>
+				<p class="ticket-sub">Purchasing a full day pass online earns a 10% discount on these listed prices.<br> All ticket sales are final and nonrefundable.</p>
 			</div>
 		</div>
 
