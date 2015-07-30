@@ -450,6 +450,10 @@ big {
 	text-decoration: underline;
 }
 
+.font-no-underline {
+	text-decoration: none !important;
+}
+
 .parque-text-color--white {
 	color: #fff;
 }
@@ -1859,6 +1863,8 @@ object {
 #active-zipline .casa-col--bg {background-image: url(imgs/bg_active_1.jpg);}
 #active-explore .casa-col--bg {background-image: url(imgs/bg_active_2.jpg);}
 #active-pools .casa-col--bg {background-image: url(imgs/bg_active_3.jpg);}
+#hotel-intro .casa-col--bg {background-image: url(imgs/bg_hotel_0.jpg); background-size: contain; background-color: white;}
+#hotel-link .casa-col--bg {background-image: url(imgs/bg_hotel_1.jpg); }
 
 
 
