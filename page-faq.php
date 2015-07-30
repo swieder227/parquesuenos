@@ -53,7 +53,7 @@ get_header(); ?>
 						<span class="parque-body parque-body--bold">Q&nbsp;:&nbsp;</span><span class="parque-body-sm parque-body--light">Is it appropriate to tip?</span>	
 					</div>
 					<div>
-						<span class="parque-body parque-body--bold">A&nbsp;:&nbsp;</span><span class="parque-body-sm parque-body--light">Yes, we encourage you to tip your waiters 15-20%.</span>
+						<span class="parque-body parque-body--bold">A&nbsp;:&nbsp;</span><span class="parque-body-sm parque-body--light">Yes, we encourage you to tip your waiters 15-20% and 20 to 50 pesos for park employees who assist with kayaks, paddleboards, or lifeguard.</span>
 					</div>
 				</div>
 			</div>
