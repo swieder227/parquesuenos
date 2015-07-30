@@ -9,7 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		
-		<div class="page-topimg page-topimg--dining">
+		<div class="page-topimg page-topimg--hotel">
 			<div class="toptabs-contain">
 				<div class="toptabs">
 					<div class="toptab font-lecker active"><a href="#">Hotel</a></div>

@@ -1533,6 +1533,13 @@ object {
 .page-topimg--faq{
 	background-image: url(imgs/bg_faq_top.jpg);
 }
+.page-topimg--hotel{
+	background-image: url(imgs/bg_hotel_top.jpg);
+}
+.page-topimg--photos{
+	background-image: url(imgs/bg_faq_0.jpg);
+}
+
 
 
 /* ## toptabs : tabs with anchor in the bottom left corner of a page-topimg */
