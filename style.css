@@ -1494,7 +1494,8 @@ object {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 268px;
+	min-height: 400px;
+    max-height: 33%;
 }
 /*@media screen and (max-width: 550px) {
 	.page-topimg {
@@ -1518,7 +1519,7 @@ object {
 
 
 .page-topimg--home { 
-	height: 395px;
+	height: 500px;
 	background-image: url(imgs/bg_home_top_lg.jpg);
 }
 .page-topimg--dining{
@@ -1538,6 +1539,7 @@ object {
 }
 .page-topimg--photos{
 	background-image: url(imgs/bg_faq_0.jpg);
+	background-position: 30% 63%;
 }
 
 
