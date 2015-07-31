@@ -88,7 +88,7 @@ get_header(); ?>
 			<div class="casa-col--bg casa-col--50p casa-col--right"></div>
 			<div class="casa-col--text casa-col--50p casa-col--minh20 casa-col--blue-dark casa-col--scratch-blue">
 				<h1 class="parque-h1"><span class="font-lecker">Thrilling</span> <span class="font-uppercase">ADVENTURE</span></h1>
-				<p class="parque-body">Wether you are a child or an adult you inner kid will come out when you climb our <span class="parque-body--bold">rock walls</span>, leap on our <span class="parque-body--bold">rope swing</span> or skim down any of our <span class="parque-body--bold">four water slides</span>.</p>
+				<p class="parque-body">Whether you are a child or an adult you inner kid will come out when you climb our <span class="parque-body--bold">rock walls</span>, leap on our <span class="parque-body--bold">rope swing</span> or skim down any of our <span class="parque-body--bold">four water slides</span>.</p>
 			</div>
 		</div>
 
