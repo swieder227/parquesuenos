@@ -23,7 +23,7 @@ get_header(); ?>
 
 		<div class="casa-row clear casa-row--nopad" id="hotel-intro">
 		    <div class="casa-row clear">
-				<div class="casa-col--bg casa-col--right casa-col--30p"></div>
+				<a href="http://www.casasuenos.com" target="_blank"><div class="casa-col--bg casa-col--right casa-col--30p"></div></a>
 				<div class="casa-col--text  casa-col--60p blue-on-white padding--top-0">
 					<p class="parque-text-color--bluedark parque-body--sm dining-body">
 						From the moment you walk through the door, you will be struck by an incredible, breathtaking view that frames the crystal waters of Cancun Bay. Casa de los Suenos is a unique and intimate property that radiates tranquility, peace, and a sense of "home".

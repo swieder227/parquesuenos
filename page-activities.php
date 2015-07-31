@@ -53,6 +53,8 @@ get_header(); ?>
 
 		<main id="main" class="site-main parque-text-color--white" role="main">
 
+		<div class="border-wave"></div>
+
 		<div class="casa-row casa-row--nopad parque-text-color--blue" id="active-intro">
 			<div class="casa-col--bg"></div>
 			<div class="casa-col--text casa-col--100p">
@@ -60,20 +62,22 @@ get_header(); ?>
 				<div class="two-col-layout clear">
 					<div class="two-col-layout__left">
 						<ul>
-							<li><span class="parque-body">Natural Wildlife and Pristine Waters</span></li>
-							<li><span class="parque-body">Kayaks, Paddle Boards, and Snorkel Gear</span></li>
-							<li><span class="parque-body">Pools, Hammocks, and Sun Deck</span></li>
-							<li><span class="parque-body">Showers, Lockers, and Towels</span></li>
-							<li><span class="parque-body">Restaurant and Snack Menu</span></li>
+							<li><span class="parque-body">Snorkeling</span></li>
+							<li><span class="parque-body">Kayaking</span></li>
+							<li><span class="parque-body">Paddle Boarding</span></li>
+							<li><span class="parque-body">Water Slides</span></li>
+							<li><span class="parque-body">Rope Swing</span></li>
+							<li><span class="parque-body">Climbing Wall</span></li>
 						</ul>
 					</div>
 					<div class="two-col-layout__right">
 						<ul>
-							<li><span class="parque-body">Natural Wildlife and Pristine Waters</span></li>
-							<li><span class="parque-body">Kayaks, Paddle Boards, and Snorkel Gear</span></li>
-							<li><span class="parque-body">Pools, Hammocks, and Sun Deck</span></li>
-							<li><span class="parque-body">Showers, Lockers, and Towels</span></li>
-							<li><span class="parque-body">Restaurant and Snack Menu</span></li>
+							<li><span class="parque-body">Family Pool</span></li>
+							<li><span class="parque-body">Adult-Only Pool</span></li>
+							<li><span class="parque-body">Mayan Splashdown Zip Line</span></li>
+							<li><span class="parque-body">Swim-up Bar</span></li>
+							<li><span class="parque-body">Restaurant</span></li>
+							<li><span class="parque-body">Best View on the Island</span></li>
 						</ul>
 					</div>
 				</div>

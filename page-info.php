@@ -40,8 +40,9 @@ get_header(); ?>
 				</div>
 
 				<div class="casa-col--text casa-col--100p">
-					<h4 class="parque-h4 parque-body--bold">Planning your Trip</h4>
-					<p class="parque-body--sm parquee-body--light">You can reach Parque de los Sueños by golf cart or taxi. Taxi fare from the ferry terminal is set at 88 pesos. The park is located on the Caribbean side of the island near the southern point between Punta Sur and Isla Mujeres Palace. Golf cart parking is available on the upper lot next to the street or on the turnoff to Maria’s Kan-Kin.</p>
+					<h4 class="parque-h4 parque-body--bold">Planning Your Trip</h4>
+					<p class="parque-body--sm parquee-body--light">You can reach Parque de los Sueños by golf cart or taxi. Taxi fare from the ferry terminal is set at 88 pesos. The park is located on the Cancun side of the island near the southern point between Punta Sur and Isla Mujeres Palace. Golf cart parking is available on the upper lot next to the street or on the turnoff to Maria’s Kan-Kin.</p>
+					Download our helpful map of Isla Mujeres <a class="parque-text-color--bluedark parque-body--bold font-underline" href="http://parque.staging.sethwieder.com/wp-content/themes/parquesuenos/pdf/Isla-Mujeres-Map-ParquedelosSuenos.pdf">here</a>.
 				</div>
 
 				<div class="casa-col--text casa-col--100p">

@@ -41,7 +41,7 @@ get_header(); ?>
 			<div class="casa-col--text casa-col--45p casa-col--right casa-col--orange-light casa-col--scratch-orange-light">
 				<h1 class="parque-h1"><span class="font-lecker">Ocean</span> <span class="font-uppercase">&nbsp;ADVENTURE</span></h1>
 				<p class="parque-body">Immerse yourself in the sparkling sapphire waters off of Isla Mujeres and explore the abundant wildlife of the Caribbean Sea. Snorkel, kayak, and paddle board your way through some of the most pristine water in the world. Life jackets, equipment, and gear all included.</p>
-				<div class="alignright parque-body font-uppercase learnmore-link"><a href="#">Learn More</a></div>
+				<div class="alignright parque-body font-uppercase learnmore-link"><a href="<?php echo get_permalink(get_page_by_title( 'Activities' )->ID) ?>">See Activities</a></div>
 			</div>
 		</div>
 
@@ -51,8 +51,8 @@ get_header(); ?>
 			<div class="casa-col--bg casa-col--55p casa-col--right"></div>
 			<div class="casa-col--text casa-col--45p casa-col--orange-dark casa-col--scratch-orange-dark">
 				<h1 class="parque-h1"><span class="font-lecker">Fun in the</span> <span class="font-uppercase">&nbsp;SUN</span></h1>
-				<p class="parque-body">Immerse yourself in the sparkling sapphire waters off of Isla Mujeres and explore the abundant wildlife of the Caribbean Sea. Snorkel, kayak, and paddle board your way through some of the most pristine water in the world. Life jackets, equipment, and gear all included.</p>
-				<div class="alignright parque-body font-uppercase learnmore-link"><a href="#">Learn More</a></div>
+				<p class="parque-body">With three dazzling pools (one adults-only, one kids-only and one for all ages), four water slides, two climbing walls, a rope swing, and the thrilling SkyWave, the Mayan Splashdown Zip line there is a no shortage of fun and excitement to be had at Parque de los Sueños.</p>
+				<div class="alignright parque-body font-uppercase learnmore-link"><a href="<?php echo get_permalink(get_page_by_title( 'Tickets' )->ID) ?>">Ticket Info</a></div>
 			</div>
 		</div>
 
@@ -63,7 +63,7 @@ get_header(); ?>
 			<div class="casa-col--text casa-col--45p casa-col--right casa-col--blue-dark casa-col--scratch-blue">
 				<h1 class="parque-h1"><span class="font-lecker">Pool-Side</span> <span class="font-uppercase">&nbsp;LUXURY</span></h1>
 				<p class="parque-body">Our spacious, adults-only pool boasts the best view on the island. Complete with a swim-up bar and tables for dining service, you can enjoy anything from our all-day menu as you sip your favorite cerveza, margarita or mojito. An oasis for those looking to experience paradise at their own pace.</p>
-				<div class="alignright parque-body font-uppercase learnmore-link"><a href="#">Learn More</a></div>
+				<div class="alignright parque-body font-uppercase learnmore-link"><a href="<?php echo get_permalink(get_page_by_title( 'Dining' )->ID) ?>">Dining Options</a></div>
 			</div>
 		</div>
 			

@@ -68,7 +68,7 @@ get_header(); ?>
 						<span class="font-lecker">Dinner at </span>Rêves
 					</div>
 					<p class="parque-text-color--bluedark parque-body--sm dining-body">
-						is the newest culinary triumph of Ramon, the Head Chef for Casa de los Sueños. Sample incredible contemporary fusion plates with influences across the Caribbean, Yucatan, and beyond. Dishes are created with the finest ingredients, freshest seafood, and choicest cuts. The top spot to enjoy the evening ocean and lifestyle on the southern end of the island. 
+						Reves is the newest culinary triumph of Ramon, the Head Chef for Casa de los Sueños. Sample incredible contemporary fusion plates with influences across the Caribbean, Yucatan, and beyond. Dishes are created with the finest ingredients, freshest seafood, and choicest cuts. The top spot to enjoy the evening ocean and lifestyle on the southern end of the island. 
 					</p>
 					<p class="parque-text-color--bluedark dining-pricing">
 						Open Daily:  5:30PM - 10:00PM
