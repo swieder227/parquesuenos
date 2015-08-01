@@ -66,7 +66,7 @@ get_header(); ?>
 		<div class="casa-row clear" id="info-tickets">
 		    <div class="casa-col--bg casa-col--70p"></div>
 		    <div class="casa-col--text casa-col--40p casa-col--extrapad casa-col--right casa-col--blue-dark casa-col--scratch-blue">
-		        <h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy<br/>Tickets</span></h1>
+		        <a  href="https://parque.webconnex.com/tickets" target="_blank" class="font-no-underline"><h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy<br/>Tickets</span></h1></a>
 		    </div>
 		</div>
 

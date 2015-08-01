@@ -72,7 +72,7 @@
 				<!-- Main Menu -->
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'container_class' => 'menu-all-pages-container menu-all-pages-container--'.get_locale() ) ); ?>
 			</nav><!-- #site-navigation -->
-			<a class="buy-tix-btn" href="https://parque.webconnex.com/tickets?mode=test"></a>
+			<a class="buy-tix-btn" href="https://parque.webconnex.com/tickets"></a>
 		</div>
 	</header><!-- #masthead -->
 	<div id="stickyhead">

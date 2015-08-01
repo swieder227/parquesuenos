@@ -50,7 +50,7 @@ get_header(); ?>
 					<p class="parque-body">$840 MXN / $59.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -62,7 +62,7 @@ get_header(); ?>
 					<p class="parque-body">$1300 MXN / $95.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -75,7 +75,7 @@ get_header(); ?>
 					<p class="parque-body">$700  MXN / $50.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -88,7 +88,7 @@ get_header(); ?>
 					<p class="parque-body">$700  MXN / $50.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
 				</td>
 			</tr>
 		</table>
@@ -123,7 +123,7 @@ get_header(); ?>
 					<p class="parque-body">$630 MXN / $45.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -136,7 +136,7 @@ get_header(); ?>
 					<p class="parque-body">$490 MXN / $35.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -149,7 +149,7 @@ get_header(); ?>
 					<p class="parque-body">$490  MXN / $35.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets?mode=test" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
 				</td>
 			</tr>
 		</table>
@@ -166,7 +166,7 @@ get_header(); ?>
 		<div class="casa-row clear" id="tickets-buy">
 		    <div class="casa-col--bg casa-col--60p casa-col--right"></div>
 		    <div class="casa-col--text casa-col--40p casa-col--extrapad casa-col--orange-dark casa-col--pattern-circle clear">
-		        <h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy<br/>Tickets</span></h1>
+		        <a  href="https://parque.webconnex.com/tickets" target="_blank" class="font-no-underline"><h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy<br/>Tickets</span></h1></a>
 		    </div>
 		</div>
 
