@@ -20,6 +20,7 @@ get_header(); ?>
 				<div class="carousel-item" data-slide-index="2"><div class="carousel-img"></div></div>
 				<div class="carousel-item" data-slide-index="3"><div class="carousel-img"></div></div>
 				<div class="carousel-item" data-slide-index="4"><div class="carousel-img"></div></div>
+				<div class="carousel-item" data-slide-index="5"><div class="carousel-img"></div></div>
 				
 				<!-- not for carousel, but placed here for z-index  -->
 				<div class="toptabs-contain">
@@ -39,6 +40,7 @@ get_header(); ?>
 					    	<div class="carousel-dot" data-slide-index="2"></div>
 					    	<div class="carousel-dot" data-slide-index="3"></div>
 					    	<div class="carousel-dot" data-slide-index="4"></div>
+					    	<div class="carousel-dot" data-slide-index="5"></div>
 				    	</div>
 				    	<button class="carousel-btn" data-dir="_R"></button>
 				    </div>

@@ -1162,7 +1162,12 @@ html.supportsFlexbox #primary-menu-sticky {
 		height: 80px;
 	}
 }
-
+@media screen and (min-width: 1200px) {
+	.buy-tix-btn {
+		right: auto;
+		left: 75%;
+	}
+}
 
 
 /*--------------------------------------------------------------
@@ -2426,17 +2431,37 @@ Dots
 
 
 /*.carousel-main .carousel-item[data-slide-index="6"] .carousel-img { background-image: url(imgs/rooms/casa-7.gif); }*/
-.carousel-main .carousel-item .carousel-img { background-image: url(imgs/bg_active_top_0.jpg); }
+.carousel-main .carousel-item[data-slide-index="0"] .carousel-img { background-image: url(imgs/bg_active_top_1.jpg); }
+.carousel-main .carousel-item[data-slide-index="1"] .carousel-img { background-image: url(imgs/bg_active_top_2.jpg); }
+.carousel-main .carousel-item[data-slide-index="2"] .carousel-img { background-image: url(imgs/bg_active_top_3.jpg); }
+.carousel-main .carousel-item[data-slide-index="3"] .carousel-img { background-image: url(imgs/bg_active_top_4.jpg); }
+.carousel-main .carousel-item[data-slide-index="4"] .carousel-img { background-image: url(imgs/bg_active_top_5.jpg); }
+.carousel-main .carousel-item[data-slide-index="5"] .carousel-img { background-image: url(imgs/bg_active_top_6.jpg); }
 
+
+
+
+/*  */
+.carousel-main.fixed {
+	overflow: hidden;
+}
+.carousel-main.fixed .toptabs-contain {
+	display: none;
+}
 
 /* Set Max heights */
 .carousel-main.fixed .carousel-img {
-	width: 100%;
-	height: 100%;
-	max-width: 500px;
-	max-height: 400px;
+	max-width: 100%;
+	max-height: 100%;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%,-50%);
 	        transform: translate(-50%,-50%);
 }
+
+.carousel-main.fixed .carousel-item[data-slide-index="0"] .carousel-img { width: 1920px; height: 1000px; }
+.carousel-main.fixed .carousel-item[data-slide-index="1"] .carousel-img { width: 1920px; height: 1000px; }
+.carousel-main.fixed .carousel-item[data-slide-index="2"] .carousel-img { width: 1920px; height: 1000px; }
+.carousel-main.fixed .carousel-item[data-slide-index="3"] .carousel-img { width: 1920px; height: 1000px; }
+.carousel-main.fixed .carousel-item[data-slide-index="4"] .carousel-img { width: 1920px; height: 1000px; }
+.carousel-main.fixed .carousel-item[data-slide-index="5"] .carousel-img { width: 1920px; height: 1000px; }
