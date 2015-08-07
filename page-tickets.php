@@ -47,10 +47,10 @@ get_header(); ?>
 					<p class="parque-body">Single Day General Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$840 MXN / $59.00 USD</p>
+					<p class="parque-body">$59.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -59,10 +59,10 @@ get_header(); ?>
 					<p class="parque-body">Two Day General Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$1300 MXN / $95.00 USD</p>
+					<p class="parque-body">$95.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -72,10 +72,10 @@ get_header(); ?>
 					<small> (Guests 60 Years & Over - ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$700  MXN / $50.00 USD</p>
+					<p class="parque-body">$50.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -85,10 +85,10 @@ get_header(); ?>
 					<small>(Citizens of Mexico – ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$700  MXN / $50.00 USD</p>
+					<p class="parque-body">$50.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 		</table>
@@ -120,10 +120,10 @@ get_header(); ?>
 					<p class="parque-body">Half Day General Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$630 MXN / $45.00 USD</p>
+					<p class="parque-body">$45.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -133,10 +133,10 @@ get_header(); ?>
 					<small>(Citizens of Mexico – ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$490 MXN / $35.00 USD</p>
+					<p class="parque-body">$35.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -146,10 +146,10 @@ get_header(); ?>
 					<small>(Guests 60 Years &amp; Over - ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$490  MXN / $35.00 USD</p>
+					<p class="parque-body">$35.00 USD</p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy</a>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 		</table>
@@ -166,7 +166,7 @@ get_header(); ?>
 		<div class="casa-row clear" id="tickets-buy">
 		    <div class="casa-col--bg casa-col--60p casa-col--right"></div>
 		    <div class="casa-col--text casa-col--40p casa-col--extrapad casa-col--orange-dark casa-col--pattern-circle clear">
-		        <a  href="https://parque.webconnex.com/tickets" target="_blank" class="font-no-underline"><h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy<br/>Tickets</span></h1></a>
+		        <a  href="https://parque.webconnex.com/tickets" target="_blank" class="font-no-underline"><h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy Now<br/>Save 10%</span></h1></a>
 		    </div>
 		</div>
 
