@@ -407,7 +407,7 @@ big {
 }
 
 .font-lecker,
-.parque-ugc--detect-fonts strong {
+.parque-ugc--detect-fonts b {
 	font-family: "LeckerliOne", "serif";
 	font-weight: normal;
 }
@@ -438,7 +438,8 @@ big {
 	font-weight: 200;
 }
 
-.parque-body--bold {
+.parque-body--bold,
+.parque-ugc strong {
 	font-weight: bold;
 }
 

@@ -49,8 +49,11 @@ get_header(); ?>
           $contentRow = [
             'row_image' => get_sub_field('row_image'),
             'row_title' => get_sub_field('row_title', false, false),
-            'row_body_text' => get_sub_field('row_body_text'),
-            'row_index' => $row_count
+            'row_body_text' => get_sub_field('row_body_text', false, false),
+            'row_index' => $row_count,
+            'button_boolean' => get_sub_field('button_boolean'),
+            'button_url' => get_sub_field('button_url'),
+            'button_text' => get_sub_field('button_text')
           ];
           echo moduleImageTextRow($contentRow);
 

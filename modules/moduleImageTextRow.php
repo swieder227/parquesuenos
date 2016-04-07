@@ -8,6 +8,9 @@ function moduleImageTextRow($contentRow){
         'row_title': string of text for header
         'row_body_text': string of text for body
         'row_index': incrementing counter of rows on page
+        'button_boolean': true/false should show a button/anchor?
+        'button_url': the anchor's href
+        'button_text': the anchor's text
       ]
     */
 
@@ -33,7 +36,7 @@ function moduleImageTextRow($contentRow){
         $class_text = $class_text.' casa-col--orange-dark casa-col--scratch-orange-dark';
         break;
     }
-  
+
   ?>
 
     <div class="casa-row parque-text-color--white clear">
@@ -41,6 +44,9 @@ function moduleImageTextRow($contentRow){
       <div class="casa-col--text casa-col--50p casa-col--minh20 <?php echo $class_text ?>">
         <h1 class="parque-h1 parque-ugc parque-ugc--detect-fonts"><?php echo $contentRow['row_title']?></h1>
         <p class="parque-body"><?php echo $contentRow['row_body_text']?></p>
+        <?php if($contentRow['button_boolean']): ?>
+          <div class="alignright parque-body font-uppercase learnmore-link"><a href="<?php echo '#' ?>">See Activities</a></div>
+        <?php endif ?>
       </div>
     </div>  
 
