@@ -9,7 +9,15 @@ get_header(); ?>
 
   <div id="primary" class="content-area">
     
-    <!-- <div class="page-topimg page-topimg--active"></div> -->
+    <!-- Header -->
+    <div class="page-topimg page-topimg--active" style="background-image: url(<?php the_field('header_image'); ?>)">
+      <!-- Tab -->
+      <div class="toptabs-contain">
+        <div class="toptabs">
+          <div class="toptab font-lecker active"><a href="#"><?php the_title(); ?></a></div>
+        </div>
+      </div>
+    </div>
 
     <main id="main" class="site-main" role="main">
 

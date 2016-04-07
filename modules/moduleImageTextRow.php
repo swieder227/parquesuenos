@@ -33,34 +33,7 @@ function moduleImageTextRow($contentRow){
         $class_text = $class_text.' casa-col--orange-dark casa-col--scratch-orange-dark';
         break;
     }
-
-    // .casa-col--orange-light {
-    //   background-color: #f7951d;
-    // }
-    // .casa-col--orange-dark {
-    //   background-color: #f3763c;
-    // }
-    // .casa-col--blue-dark {
-    //   background-color: #0a5c94;
-    // }
-
-
-    // .casa-col--scratch-orange-light {
-    //   background-image: url(imgs/pattern_scratch_orange.png);
-    //   background-size: 200px 200px;
-    //   background-repeat: repeat;
-    // }
-    // .casa-col--scratch-orange-dark {
-    //   background-image: url(imgs/pattern_scratch_orangedark.png);
-    //   background-size: 200px 200px;
-    //   background-repeat: repeat;
-    // }
-    // .casa-col--scratch-blue {
-    //   background-image: url(imgs/pattern_scratch_blue.png);
-    //   background-size: 200px 200px;
-    //   background-repeat: repeat;
-    // }
-
+  
   ?>
 
     <div class="casa-row parque-text-color--white clear">
