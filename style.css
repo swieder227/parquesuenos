@@ -406,16 +406,17 @@ big {
 	font-size: 125%;
 }
 
-.font-lecker {
+.font-lecker,
+.parque-ugc--detect-fonts strong {
 	font-family: "LeckerliOne", "serif";
 	font-weight: normal;
 }
 
 /* Text Sizes */
-.parque-h1 { font-size: 40px; line-height: 1;}
-.parque-h2 { font-size: 2em; line-height: 1;}
-.parque-h3 { font-size: 1.5em; line-height: 1;}
-.parque-h4 { font-size: 1.2em; line-height: 1;}
+.parque-h1, .parque-ugc h1 { font-size: 40px; line-height: 1;}
+.parque-h2, .parque-ugc h2 { font-size: 2em; line-height: 1;}
+.parque-h3, .parque-ugc h3 { font-size: 1.5em; line-height: 1;}
+.parque-h4, .parque-ugc h4 { font-size: 1.2em; line-height: 1;}
 
 .parque-XL { font-size: 70px; line-height: 1;}
 
@@ -425,13 +426,15 @@ big {
 	line-height: 1.25;
 }
 
-.parque-body {
+.parque-body, 
+.parque-ugc p, .parque-ugc li {
 	font-size: 20px;
 	line-height: 1.5em;
 	letter-spacing: -1px;
 	
 }
-.parque-body--light {
+.parque-body--light,
+.parque-ugc h1, .parque-ugc h2, .parque-ugc h3, .parque-ugc h4 {
 	font-weight: 200;
 }
 
