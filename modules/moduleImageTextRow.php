@@ -45,7 +45,7 @@ function moduleImageTextRow($contentRow){
         <h1 class="parque-h1 parque-ugc parque-ugc--detect-fonts"><?php echo $contentRow['row_title']?></h1>
         <p class="parque-body"><?php echo $contentRow['row_body_text']?></p>
         <?php if($contentRow['button_boolean']): ?>
-          <div class="alignright parque-body font-uppercase learnmore-link"><a href="<?php echo '#' ?>">See Activities</a></div>
+          <div class="alignright parque-body font-uppercase learnmore-link"><a href="<?php echo $contentRow['button_url'] ?>">See Activities</a></div>
         <?php endif ?>
       </div>
     </div>  
