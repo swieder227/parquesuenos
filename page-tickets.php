@@ -44,10 +44,10 @@ get_header(); ?>
 			<!--  -->
 			<tr>
 				<td>
-					<p class="parque-body">Single Day General Admission</p>
+					<p class="parque-body">Single Day Adult Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$59.00 USD</p>
+					<p class="parque-body">$60.00 USD</p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -56,10 +56,10 @@ get_header(); ?>
 			<!--  -->
 			<tr>
 				<td>
-					<p class="parque-body">Two Day General Admission</p>
+					<p class="parque-body">Single Day Under 12 Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$95.00 USD</p>
+					<p class="parque-body">$45.00 USD</p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -121,6 +121,18 @@ get_header(); ?>
 				</td>
 				<td>
 					<p class="parque-body">$45.00 USD</p>
+				</td>
+				<td>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+				</td>
+			</tr>
+			<!--  -->
+			<tr>
+				<td>
+					<p class="parque-body">Half Day Under 12 Admission </p>
+				</td>
+				<td>
+					<p class="parque-body">$35.00 USD</p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
