@@ -29,12 +29,12 @@ get_header(); ?>
 						<span class="font-lecker">Brunch</span>
 					</div>
 					<p class="parque-text-color--bluedark parque-body--sm dining-body">
-						Enjoy a wide variety of your favorite breakfast and lunch items, made to order. With everything from a true American Breakfast to a lobster benedict and homemade hamburgers to lobster tacos and all your Mexican favorites, our menu will satisfy even the pickiest eaters. We even have chicken fingers and mac ‘n cheese for the little ones. For those who buy a park pass, a limited selection is also offered as a complimentary snack menu.
+						Breakfast is served until noon in paradise. Enjoy the morning and take in the breathtaking Caribbean waters that stretch from our rustic pier towards the shores of Cancún. A delectable breakfast menu that mixes local classics with strong seafood influences.
 					</p>
 					<p class="parque-text-color--bluedark dining-pricing">
-						Open Daily:  8:00AM - 4:00PM
+						Open Daily:  8:00AM - NOON
 					</p>
-					<a class="parque-h3 btn-cta btn-cta--din-standalone" href="http://casasuenos.com/wp-content/themes/casasuenos/pdfs/ParqueSuenos_BarGrill_BrunchMenu.pdf">BRUNCH MENU</a>
+					<a target="_blank" class="parque-h3 btn-cta btn-cta--din-standalone" href="http://casasuenos.com/wp-content/themes/casasuenos/pdfs/ParqueSuenos_Brunch_Menu.pdf">BRUNCH MENU</a>
 				</div>
 			</div>
 		</div>
@@ -52,7 +52,7 @@ get_header(); ?>
 						Our fully stocked bar wraps around to serve our swim-up guests as well as those on dry land. If the ocean view isn’t enough for you, we feature all the American sports channels so you can watch your favorite teams while taking comfort – win or lose – in a delicious cocktail or cold beer in the soothing shade of our palapa.
 					</p>
 					<p class="parque-text-color--bluedark dining-pricing">
-						Open Daily:  8:00AM - 4:00PM
+						Open Daily:  8:00AM - 9:00PM
 					</p>
 				</div>
 			</div>
@@ -65,15 +65,15 @@ get_header(); ?>
 				<div class="casa-col--bg casa-col--40p"></div>
 				<div class="casa-col--text casa-col--right casa-col--60p blue-on-white padding--top-0">
 					<div class="parque-h2 parque-text-color--blue">
-						<span class="font-lecker">Dinner at </span>Rêves
+						<span class="font-lecker">Dinner at </span>Black Cat BBQ
 					</div>
 					<p class="parque-text-color--bluedark parque-body--sm dining-body">
-						Reves is the newest culinary triumph of Ramon, the Head Chef for Casa de los Sueños. Sample incredible contemporary fusion plates with influences across the Caribbean, Yucatan, and beyond. Dishes are created with the finest ingredients, freshest seafood, and choicest cuts. The top spot to enjoy the evening ocean and lifestyle on the southern end of the island. 
+						Black Cat BBQ brings gourmet BBQ to the island. Our brisket, chicken, pork, and ribs are exquisitely smoked with zapote logs, giving each plate a rich, local flair. Rounded out with locally-sourced seafood and generous dinner salads. Black Cat is the top spot to enjoy the evening ocean and lifestyle on the southern end of the island.
 					</p>
 					<p class="parque-text-color--bluedark dining-pricing">
-						Open Daily:  5:30PM - 10:00PM
+						Open Daily:  11:00AM - 9:00PM
 					</p>
-					<a class="parque-h3 btn-cta btn-cta--din-standalone" href="http://casasuenos.com/wp-content/themes/casasuenos/pdfs/Reves-Menus.pdf">Rêves MENU</a>
+					<a target="_blank"class="parque-h3 btn-cta btn-cta--din-standalone" href="http://casasuenos.com/wp-content/themes/casasuenos/pdfs/Black_Cat_BBQ_and_Seafood_Grill.pdf">Black Cat BBQ MENU</a>
 				</div>
 			</div>
 		</div>
@@ -91,7 +91,7 @@ get_header(); ?>
 						For a truly special experience, inquire about our sunset pier dinners. Available after 5pm at the end of our pier, enjoy a private evening of romance and a menu custom tailored to your desires. Reservations highly recommended.
 					</p>
 					<p class="parque-text-color--bluedark dining-pricing">
-						Open Daily:  5:30PM - 10:00PM
+						Open Daily:  5:00PM - 9:00PM
 					</p>
 				</div>
 			</div>
