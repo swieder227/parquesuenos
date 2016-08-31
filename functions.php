@@ -154,5 +154,5 @@ require get_template_directory() . '/inc/jetpack.php';
 */
 add_action('admin_init','customize_meta_boxes');
 function customize_meta_boxes() {
-     remove_meta_box('postcustom','post','normal');
+     remove_meta_box('postcustom','page','normal');
 }
