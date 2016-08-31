@@ -148,3 +148,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+* Remove unsightly custom fields boxes
+*/
+add_action('admin_init','customize_meta_boxes');
+function customize_meta_boxes() {
+     remove_meta_box('postcustom','post','normal');
+}

@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		
+
 		<div class="page-topimg page-topimg--tickets">
 			<div class="toptabs-contain">
 				<div class="toptabs">
@@ -26,7 +26,7 @@ get_header(); ?>
 		<div class="casa-row casa-row--nopad parque-text-color--blue">
 			<div class="casa-col--text casa-col--100p">
 				<p class="ticket-title font-uppercase margin--bot-neg">FULL DAY TICKET PRICES</p>
-				<p class="ticket-sub margin-0">Everyday, rain or shine, from 10am to 5pm</p>	
+				<p class="ticket-sub margin-0">Everyday, rain or shine, from 10am to 5pm</p>
 			</div>
 		</div>
 		<table class="tickets-table parque-body--light parque-text-color--blue">
@@ -47,7 +47,7 @@ get_header(); ?>
 					<p class="parque-body">Single Day Adult Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$60.00 USD</p>
+					<p class="parque-body"><?php echo get_field('full_adult') ?></p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -59,7 +59,7 @@ get_header(); ?>
 					<p class="parque-body">Single Day Under 12 Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$45.00 USD</p>
+					<p class="parque-body"><?php echo get_field('full_under12') ?></p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -72,7 +72,7 @@ get_header(); ?>
 					<small> (Guests 60 Years & Over - ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$50.00 USD</p>
+					<p class="parque-body"><?php echo get_field('full_senior') ?></p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -85,21 +85,21 @@ get_header(); ?>
 					<small>(Citizens of Mexico – ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$50.00 USD</p>
+					<p class="parque-body"><?php echo get_field('full_mexican') ?></p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 		</table>
-	
+
 
 		<!-- TABLE 2 -->
 
 		<div class="casa-row casa-row--nopad parque-text-color--blue">
 			<div class="casa-col--text casa-col--100p">
 				<p class="ticket-title font-uppercase margin--bot-neg">1/2 DAY TICKET PRICES</p>
-				<p class="ticket-sub margin-0">Available from 1:30 to 5:00 pm ONLY</p>	
+				<p class="ticket-sub margin-0">Available from 1:30 to 5:00 pm ONLY</p>
 			</div>
 		</div>
 		<table class="tickets-table parque-body--light parque-text-color--blue">
@@ -120,7 +120,7 @@ get_header(); ?>
 					<p class="parque-body">Half Day General Admission</p>
 				</td>
 				<td>
-					<p class="parque-body">$45.00 USD</p>
+					<p class="parque-body"><?php echo get_field('half_adult') ?></p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -132,20 +132,7 @@ get_header(); ?>
 					<p class="parque-body">Half Day Under 12 Admission </p>
 				</td>
 				<td>
-					<p class="parque-body">$35.00 USD</p>
-				</td>
-				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
-				</td>
-			</tr>
-			<!--  -->
-			<tr>
-				<td>
-					<p class="parque-body margin--bot-neg">Mexican National</p>
-					<small>(Citizens of Mexico – ID Required)</small>
-				</td>
-				<td>
-					<p class="parque-body">$35.00 USD</p>
+					<p class="parque-body"><?php echo get_field('half_under12') ?></p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -158,7 +145,20 @@ get_header(); ?>
 					<small>(Guests 60 Years &amp; Over - ID Required)</small>
 				</td>
 				<td>
-					<p class="parque-body">$35.00 USD</p>
+					<p class="parque-body"><?php echo get_field('half_senior') ?></p>
+				</td>
+				<td>
+					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+				</td>
+			</tr>
+			<!--  -->
+			<tr>
+				<td>
+					<p class="parque-body margin--bot-neg">Mexican National</p>
+					<small>(Citizens of Mexico – ID Required)</small>
+				</td>
+				<td>
+					<p class="parque-body"><?php echo get_field('half_mexican') ?></p>
 				</td>
 				<td>
 					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
@@ -171,7 +171,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		
+
 
 		<div class="border-wave"></div>
 
@@ -183,7 +183,7 @@ get_header(); ?>
 		</div>
 
 
-			
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
