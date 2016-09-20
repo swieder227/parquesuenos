@@ -426,12 +426,12 @@ big {
 	line-height: 1.25;
 }
 
-.parque-body, 
+.parque-body,
 .parque-ugc p, .parque-ugc li {
 	font-size: 20px;
 	line-height: 1.5em;
 	letter-spacing: -1px;
-	
+
 }
 .parque-body--light,
 .parque-ugc h1, .parque-ugc h2, .parque-ugc h3, .parque-ugc h4 {
@@ -1173,6 +1173,46 @@ html.supportsFlexbox #primary-menu-sticky {
 	}
 }
 
+/*--------------------------------------------------------------
+# header-special-btn
+--------------------------------------------------------------*/
+.header-special-btn {
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 221px;
+	height: 160px;
+	background-image: url(imgs/btn_nye.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top left;
+	z-index: 100;
+}
+
+@media screen and (max-width: 1023px) {
+	.header-special-btn {
+		/*background-position-x: 60px;*/
+		height: 140px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.header-special-btn {
+		left: auto;
+		right: 0;
+		background-position: 10px 0px;
+		top: 50px;
+		z-index: 300;
+		height: 108px;
+		width: 100px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.header-special-btn {
+		right: 75%;
+		left: auto;
+	}
+}
+
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1513,7 +1553,7 @@ object {
 		min-height: 350px;
 	}
 	#site-navigation .menu-all-pages-container {
-		height: 273px !important;  these 2 types are linked, so it's important to put them together. overrides larger media query 
+		height: 273px !important;  these 2 types are linked, so it's important to put them together. overrides larger media query
 	}
 }
 
@@ -1529,7 +1569,7 @@ object {
 }*/
 
 
-.page-topimg--home { 
+.page-topimg--home {
 	height: 500px;
 	background-image: url(imgs/bg_home_top_lg.jpg);
 }
@@ -1940,15 +1980,15 @@ object {
 
 .tickets-table td {
 	padding: 5px 20px;
-}	
+}
 
 /* Large, 3column */
 @media screen and (min-width: 701px) {
-	
+
 
 	.tickets-table td {
 		height: 50px;
-	}	
+	}
 }
 
 /* Small, 100% width */
@@ -2016,7 +2056,7 @@ object {
 		width: 100%;
 		clear: both;
 		float: left;
-		
+
 	}
 	.casa-col--col-form-left{
 		padding-right: 0;
@@ -2178,7 +2218,7 @@ Basic Carousel layout
     pointer-events: none; /* lets you click the curtain behind this */
 }
 
-/* 
+/*
 
 Animating carousel-items
 
@@ -2208,15 +2248,15 @@ Animating carousel-items
 @keyframes slideLeftOut {
     0%   { -webkit-transform: translateX(0%); transform: translateX(0%);}
     100% { -webkit-transform: translateX(-100%); transform: translateX(-100%);}
-} 
+}
 @-webkit-keyframes slideRightIn {
     0%   { -webkit-transform: translateX(100%); transform: translateX(100%);}
     100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
-} 
+}
 @keyframes slideRightIn {
     0%   { -webkit-transform: translateX(100%); transform: translateX(100%);}
     100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
-} 
+}
 
 .carousel-item.prev {
     -webkit-animation-name: slideLeftOut;
@@ -2235,15 +2275,15 @@ Animating carousel-items
 @keyframes slideRightOut {
     0%   { -webkit-transform: translateX(0%); transform: translateX(0%);}
     100% { -webkit-transform: translateX(100%); transform: translateX(100%);}
-} 
+}
 @-webkit-keyframes slideLeftIn {
     0%   { -webkit-transform: translateX(-100%); transform: translateX(-100%);}
     100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
-} 
+}
 @keyframes slideLeftIn {
     0%   { -webkit-transform: translateX(-100%); transform: translateX(-100%);}
     100% { -webkit-transform: translateX(0%); transform: translateX(0%);}
-} 
+}
 
 .carousel-item.prev.active {
     -webkit-animation-name: slideLeftIn;
@@ -2255,7 +2295,7 @@ Animating carousel-items
 }
 
 
-/* 
+/*
 
 Placeholders
 
@@ -2269,7 +2309,7 @@ Placeholders
 	right: 0;
 	pointer-events: auto; /* blocks clicks on curtain when directly on image */
 	background-size: cover;
-	background-position: 50% 29.9%; 
+	background-position: 50% 29.9%;
 }
 
 /*
