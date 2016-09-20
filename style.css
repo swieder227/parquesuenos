@@ -1198,15 +1198,26 @@ html.supportsFlexbox #primary-menu-sticky {
 		background-position: top left;
 	}
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
 	.header-special-btn {
 		left: auto;
 		right: 0;
 		background-position: top right;
-		top: 50px;
 		z-index: 300;
+
+		top: 77px;
+		height: 138px;
+		width: 140px;
+		top: 77px;
+
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.header-special-btn {
 		height: 108px;
 		width: 100px;
+		top: 50px;
 	}
 }
 @media screen and (min-width: 1200px) {
