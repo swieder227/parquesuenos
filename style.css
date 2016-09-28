@@ -288,35 +288,34 @@ th {
 	font-family: "LeckerliOne";
 	font-style: normal;
 	font-weight: 400;
-	src: local('LeckerliOne'), local("LeckerliOne-Regular"), url(fonts/lecker/LeckerliOne-Regular.ttf) format(truetype);
+	src: url('fonts/lecker/leckerlione-regular-webfont.woff2') format('woff2'),
+			 url('fonts/lecker/leckerlione-regular-webfont.woff') format('woff'),
+			 url('fonts/lecker/LeckerliOne-Regular.otf') format('opentype'),
+		 	 url('fonts/lecker/LeckerliOne-Regular.ttf') format('truetype');
 }
-
 
 @font-face{
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 400;
-	src: local('Montserrat'), local("Montserrat-Regular"), url(fonts/montserrat/Montserrat-Regular.otf) format(opentype);
+	src: local('Montserrat'), local("Montserrat-Regular");
+	src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+			 url('fonts/montserrat/Montserrat-Regular.otf') format('opentype');
 }
-
 @font-face{
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 200;
-	src: local('Montserrat Light'), local("Montserrat-Light"), url(fonts/montserrat/Montserrat-Light.otf) format(opentype);
+	src: local('Montserrat Light'), local("Montserrat-Light");
+	src: url('fonts/montserrat/montserrat-light-webfont.woff2') format('woff2'),
+			 url('fonts/montserrat/Montserrat-Light.otf') format('opentype');
 }
-/*
-@font-face{
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 100;
-	src: local('Montserrat Hairline'), local("Montserrat-Hairline"), url(fonts/montserrat/Montserrat-Hairline.otf) format(opentype);
-}
-*/
 @font-face{
 	font-family: "Montserrat";
 	font-weight: bold;
-	src: local('Montserrat Bold'), local("Montserrat-Bold"), url(fonts/montserrat/Montserrat-Bold.otf) format(opentype);
+	src: local('Montserrat Bold'), local("Montserrat-Bold");
+	src: url('fonts/montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+			 url('fonts/montserrat/Montserrat-Bold.otf') format('opentype');
 }
 
 html {
