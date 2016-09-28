@@ -873,13 +873,17 @@ a:active {
 .toggled .menu-toggle > div{
 	background: #008FBE;
 }
-.toggled .menu-toggle > div {
-	-webkit-transform: translateY(0) rotate(-270deg);
+.toggled .menu-toggle > div:nth-child(1) {
+	-webkit-transform: translateY(2px) rotate(-230deg);
+	transform: translateY(2px) rotate(-230deg);
+}
+.toggled .menu-toggle > div:nth-child(2) {
+	opacity: 0;
 	transform: translateY(0) rotate(-270deg);
 }
-.toggled .menu-toggle > div:first-child,
-.toggled .menu-toggle > div:last-child{
-	opacity: 0;
+.toggled .menu-toggle > div:nth-child(3){
+	-webkit-transform: translateY(-3px) rotate(230deg);
+	transform: translateY(-3px) rotate(230deg);
 }
 
 @-webkit-keyframes opacityIn {
