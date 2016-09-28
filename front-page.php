@@ -8,8 +8,10 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		
-		<div class="page-topimg page-topimg--home"></div>
+
+		<div class="page-topimg page-topimg--home">
+			<a class="header-special-btn" href="https://parque.webconnex.com/NewYearsEve?utm_source=parquedelossuenos&utm_medium=Website&utm_campaign=ParqueButtonClicks"></a>
+		</div>
 
 		<main id="main" class="site-main parque-text-color--white" role="main">
 
@@ -32,7 +34,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</div>
-		</div>	
+		</div>
 
 		<div class="border-wave"></div>
 
@@ -66,7 +68,7 @@ get_header(); ?>
 				<div class="alignright parque-body font-uppercase learnmore-link"><a href="<?php echo get_permalink(get_page_by_title( 'Dining' )->ID) ?>">Dining Options</a></div>
 			</div>
 		</div>
-			
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

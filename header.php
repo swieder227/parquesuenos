@@ -57,7 +57,6 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-header-banner">
-			<a class="header-special-btn" href="https://parque.webconnex.com/NewYearsEve?utm_source=parquedelossuenos&utm_medium=Website&utm_campaign=ParqueButtonClicks"></a>
 			<div class="site-branding">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="<?php bloginfo( 'name' ); ?>">
 					<div class="site-logo"></div>
