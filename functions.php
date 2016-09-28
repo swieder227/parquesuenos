@@ -112,7 +112,7 @@ add_action( 'widgets_init', 'parque_widgets_init' );
  * Enqueue scripts and styles.
  */
 function parque_scripts() {
-	wp_enqueue_style( 'parque-style', get_stylesheet_uri(), array(), '20160928', 'all' );
+	wp_enqueue_style( 'parque-style', get_stylesheet_uri(), array(), '20160928a', 'all' );
 
 	wp_enqueue_script( 'parque-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
