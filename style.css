@@ -1190,9 +1190,8 @@ html.supportsFlexbox #primary-menu-sticky {
 
 	width: 175px;
 	height: 170px;
-	top: 11px;
+	bottom: 11px;
 	right: 0;
-	transform: rotate(6deg);
 
 	/* Below old positions/media queries had btn in the header
 	and it move from left to right side on mobile
@@ -1208,6 +1207,13 @@ html.supportsFlexbox #primary-menu-sticky {
 	.header-special-btn {
 		width: 145px;
 		height: 130px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.header-special-btn {
+		left: 75%;
+		right: auto;
 	}
 }
 
