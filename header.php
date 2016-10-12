@@ -72,7 +72,7 @@
 				<!-- Main Menu -->
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'container_class' => 'menu-all-pages-container menu-all-pages-container--'.get_locale() ) ); ?>
 			</nav><!-- #site-navigation -->
-			<a class="buy-tix-btn" href="https://parque.webconnex.com/tickets"></a>
+			<a class="buy-tix-btn" href="https://fareharbor.com/embeds/book/parquesuenos/?full-items=yes"></a>
 		</div>
 	</header><!-- #masthead -->
 	<div id="stickyhead">
@@ -82,7 +82,7 @@
 			<div></div>
 		</button>
 		<div class="main-navigation main-navigation-sticky">
-			<a class="buy-tix-btn" href="https://parque.webconnex.com/tickets"></a>
+			<a class="buy-tix-btn" href="https://fareharbor.com/embeds/book/parquesuenos/?full-items=yes"></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu-sticky', 'container_class' => 'menu-all-pages-container menu-all-pages-container--'.get_locale() ) ); ?>
 		</div>
 	</div><!-- #stickyhead -->

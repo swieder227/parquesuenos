@@ -81,16 +81,20 @@ get_header(); ?>
 							<li><span class="parque-body">Restaurant</span></li>
 							<li><span class="parque-body">Best View on the Island</span></li>
 						</ul>
+
 					</div>
+<center><a class="fh-button-orange fh-button-flat" href="https://fareharbor.com/embeds/book/parquesuenos/?full-items=yes">Book Online Now!</a></center>
 				</div>
 			</div>
-		</div>	
+
+	</div>	
 
 		<div class="casa-row clear" id="active-adventure">
 			<div class="casa-col--bg casa-col--50p casa-col--right"></div>
 			<div class="casa-col--text casa-col--50p casa-col--minh20 casa-col--blue-dark casa-col--scratch-blue">
 				<h1 class="parque-h1"><span class="font-lecker">Thrilling</span> <span class="font-uppercase">ADVENTURE</span></h1>
 				<p class="parque-body">Whether you are a child or an adult you inner kid will come out when you climb our <span class="parque-body--bold">rock walls</span>, leap on our <span class="parque-body--bold">rope swing</span> or skim down any of our <span class="parque-body--bold">four water slides</span>.</p>
+
 			</div>
 		</div>
 
@@ -136,6 +140,7 @@ get_header(); ?>
 				<br>
 				<br>
 				When open our pools and activities are manned by park staff, including lifeguards. Safety is partnership between the park and guest and we ask that you refrain from running around, diving into, or jumping from the pools and waterfalls.</p>
+<center><a class="fh-button-orange fh-button-flat" href="https://fareharbor.com/embeds/book/parquesuenos/?full-items=yes">Book Online Now!</a></center>
 			</div>
 		</div>	
 

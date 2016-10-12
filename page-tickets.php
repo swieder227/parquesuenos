@@ -50,7 +50,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('full_adult') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33238/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -62,7 +62,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('full_under12') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33238/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -75,7 +75,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('full_senior') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33238/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -88,7 +88,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('full_mexican') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33238/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 		</table>
@@ -123,7 +123,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('half_adult') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33241/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -135,7 +135,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('half_under12') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33241/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -148,7 +148,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('half_senior') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33241/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 			<!--  -->
@@ -161,7 +161,7 @@ get_header(); ?>
 					<p class="parque-body"><?php echo get_field('half_mexican') ?></p>
 				</td>
 				<td>
-					<a class="parque-body font-lecker" href="https://parque.webconnex.com/tickets" target="_blank">Buy Now Save 10%</a>
+					<a class="parque-body font-lecker" href="https://fareharbor.com/embeds/book/parquesuenos/items/33241/calendar/" target="_blank">Buy Now Save 10%</a>
 				</td>
 			</tr>
 		</table>
@@ -178,7 +178,7 @@ get_header(); ?>
 		<div class="casa-row clear" id="tickets-buy">
 		    <div class="casa-col--bg casa-col--60p casa-col--right"></div>
 		    <div class="casa-col--text casa-col--40p casa-col--extrapad casa-col--orange-dark casa-col--pattern-circle clear">
-		        <a  href="https://parque.webconnex.com/tickets" target="_blank" class="font-no-underline"><h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy Now<br/>Save 10%</span></h1></a>
+		        <a  href="https://fareharbor.com/embeds/book/parquesuenos/?full-items=yes" target="_blank" class="font-no-underline"><h1 class="parque-XL text-center parque-text-color--white"><span class="font-lecker">Buy Now<br/>Save 10%</span></h1></a>
 		    </div>
 		</div>
 

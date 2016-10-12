@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 
 		<div class="page-topimg page-topimg--home">
-			<a class="header-special-btn" href="https://parque.webconnex.com/NewYearsEve?utm_source=parquedelossuenos&utm_medium=Website&utm_campaign=ParqueButtonClicks"></a>
+			<a class="header-special-btn" href="https://fareharbor.com/embeds/book/parquesuenos/items/33247/?full-items=yes"></a>
 		</div>
 
 		<main id="main" class="site-main parque-text-color--white" role="main">
