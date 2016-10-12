@@ -9,9 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 
-		<div class="page-topimg page-topimg--home">
-			<a class="header-special-btn" href="https://parque.webconnex.com/NewYearsEve?utm_source=parquedelossuenos&utm_medium=Website&utm_campaign=ParqueButtonClicks"></a>
-		</div>
+		<div class="page-topimg page-topimg--home"></div>
 
 		<main id="main" class="site-main parque-text-color--white" role="main">
 

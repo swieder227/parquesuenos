@@ -1186,27 +1186,31 @@ html.supportsFlexbox #primary-menu-sticky {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 0;
-	z-index: 100;
+  z-index: 5555;
 
 	width: 175px;
 	height: 170px;
-	bottom: 11px;
-	right: 0;
+	top: 150px;
+	right: 10px;
+}
 
-	/* Below old positions/media queries had btn in the header
-	and it move from left to right side on mobile
+@media screen and (max-width: 767px) {
+	.header-special-btn {
+		top: 120px;
+	}
 
-	top: -25px;
-	left: 0;
-	width: 163px;
-	height: 160px;
-	*/
+	/* special case for activities page bg of carousel */
+	.page-template-page-activities	.header-special-btn {
+		top: 150px;
+	}
 }
 
 @media screen and (max-width: 450px) {
 	.header-special-btn {
 		width: 145px;
 		height: 130px;
+		top: 110px;
+		right: 0;
 	}
 }
 
@@ -1216,45 +1220,6 @@ html.supportsFlexbox #primary-menu-sticky {
 		right: auto;
 	}
 }
-
-/*
-@media screen and (max-width: 1023px) {
-	.header-special-btn {
-		height: 140px;
-		width: 140px;
-		top: -28px;
-		left: -7px;
-		background-position: top left;
-	}
-}
-@media screen and (max-width: 767px) {
-	.header-special-btn {
-		left: auto;
-		right: 0;
-		background-position: top right;
-		z-index: 300;
-
-		top: 77px;
-		height: 138px;
-		width: 140px;
-		top: 77px;
-
-	}
-}
-
-@media screen and (max-width: 450px) {
-	.header-special-btn {
-		height: 108px;
-		width: 100px;
-		top: 50px;
-	}
-}
-@media screen and (min-width: 1200px) {
-	.header-special-btn {
-		right: 75%;
-		left: auto;
-	}
-}*/
 
 
 /*--------------------------------------------------------------

@@ -87,4 +87,6 @@
 		</div>
 	</div><!-- #stickyhead -->
 
+	<a class="header-special-btn" href="https://parque.webconnex.com/NewYearsEve?utm_source=parquedelossuenos&utm_medium=Website&utm_campaign=ParqueButtonClicks"></a>
+
 	<div id="content" class="site-content">
