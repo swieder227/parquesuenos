@@ -9,9 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 
-		<div class="page-topimg page-topimg--home">
-			<a class="header-special-btn" href="https://fareharbor.com/embeds/book/parquesuenos/items/33247/?full-items=yes"></a>
-		</div>
+		<div class="page-topimg page-topimg--home"></div>
 
 		<main id="main" class="site-main parque-text-color--white" role="main">
 
