@@ -1,5 +1,11 @@
 # A custom wordpress theme for Parque de los Suenos
 
+### Plugin Dependencies:
+- [Advanced Custom Fields](https://www.advancedcustomfields.com/)
+- [Contact-Form-7](https://wordpress.org/plugins/contact-form-7/)
+- [Unite-Gallery-Lite](https://wordpress.org/plugins/unite-gallery-lite/)
+- [Really Simple CAPTCHA](https://wordpress.org/plugins/really-simple-captcha/)
+
 ### Built ontop of _s
 
 Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
